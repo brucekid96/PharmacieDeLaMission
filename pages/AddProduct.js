@@ -174,7 +174,7 @@ const AddProduct = ({navigation}) => {
         >
         </Button>
         </View>
-        <View >
+        <View>
         <Text style={styles.fieldName}>Drug Description</Text>
           <TextInput
            multiline
@@ -184,7 +184,7 @@ const AddProduct = ({navigation}) => {
 
            </View>
 
-           <View >
+           <View>
            
        
           <TouchableOpacity
@@ -192,13 +192,14 @@ const AddProduct = ({navigation}) => {
           onPress= {() => {
                }} >
         
-           <Icon name="plus" size={25} color="#fff" />
+           <Icon name="check" size={25} color="#fff" />
+          
     
          </TouchableOpacity>
           </View>
 
 
- <Text>DrugName: {name},  categoryName: {category},quantity: {quantity},purchasing: {purchasing},selling: {selling},batchNumber: {batchNumber},manufactureName: {manufactureName},manuDate:{textManDate},suppliedDate:{textSupDate},expireDate:{textExpDate}</Text>
+          <Text>        </Text>
 
 {manShow && (
          <DateTimePicker

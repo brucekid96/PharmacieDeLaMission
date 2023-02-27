@@ -12,8 +12,7 @@ const HomeScreen = ({navigation}) => {
        
        <TouchableOpacity
        style={styles.circle}
-       onPress= {() => {
-               }} >
+       onPress= {() => navigation.navigate('AddProduct')} >
         
         <Icon name="plus" size={25} color="#fff" />
     
